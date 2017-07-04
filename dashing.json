@@ -3,7 +3,10 @@
     "package": "pathfinder",
     "index": "gettingStarted.html",
     "selectors": {
-      "#classes ~ p > b > a": "Class",
+      ".body > h1": {
+        "type": "Class",
+        "matchpath": "classes/.*\\.html"
+      },
       "h1": {
         "type": "Race",
         "matchpath": "races.html"
@@ -12,7 +15,7 @@
         "type": "Feat",
         "matchpath": "feats.html"
       },
-     ".stat-block-title": "Spell",
+      ".stat-block-title": "Spell",
       "title": "Rule"
     },
     "ignore": [
