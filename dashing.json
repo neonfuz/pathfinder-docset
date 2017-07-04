@@ -5,11 +5,15 @@
     "selectors": {
       "#classes ~ p > b > a": "Class",
       "h1": {
-        "type": "Races",
+        "type": "Race",
         "matchpath": "races.html"
       },
+      "#feats-text h2": {
+        "type": "Feat",
+        "matchpath": "feats.html"
+      },
      ".stat-block-title": "Spell",
-      "title": "Rules"
+      "title": "Rule"
     },
     "ignore": [
       "ABOUT"
