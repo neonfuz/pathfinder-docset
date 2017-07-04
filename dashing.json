@@ -1,0 +1,20 @@
+{
+    "name": "Pathfinder PRD",
+    "package": "pathfinder",
+    "index": "gettingStarted.html",
+    "selectors": {
+      "#classes ~ p > b > a": "Class",
+      "h1": {
+        "type": "Races",
+        "matchpath": "races.html"
+      },
+     ".stat-block-title": "Spell",
+      "title": "Rules"
+    },
+    "ignore": [
+      "ABOUT"
+    ],
+    "icon32x32": "docseticon.png",
+    "allowJS": false,
+    "ExternalURL": ""
+}
