@@ -1,0 +1,9 @@
+* Pathfinder Docset
+
+This is the pathfinder Core Rulebook ripped from the pathfinder PRD, converted
+to a Dash (Zeal) Docset.
+
+** Building
+
+In order to use this software, you will need to build it. This is a Dashing
+project, so you will need dashing. Simply run `dashing build` to build it.
