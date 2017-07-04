@@ -3,13 +3,17 @@
     "package": "pathfinder",
     "index": "index.html",
     "selectors": {
-      "h1": {
+      ".body h1": {
         "type": "Race",
         "matchpath": "races.html"
       },
       ".body > h1": {
         "type": "Class",
         "matchpath": "classes/.*\\.html"
+      },
+      "h1": {
+        "type": "Skill Rank",
+        "matchpath": "skills/.*\\.html"
       },
       "#feats-text h2": {
         "type": "Feat",
