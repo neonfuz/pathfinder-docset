@@ -3,20 +3,19 @@
     "package": "pathfinder",
     "index": "gettingStarted.html",
     "selectors": {
-      ".body > h1": {
-        "type": "Class",
-        "matchpath": "classes/.*\\.html"
-      },
       "h1": {
         "type": "Race",
         "matchpath": "races.html"
+      },
+      ".body > h1": {
+        "type": "Class",
+        "matchpath": "classes/.*\\.html"
       },
       "#feats-text h2": {
         "type": "Feat",
         "matchpath": "feats.html"
       },
-      ".stat-block-title": "Spell",
-      "title": "Rule"
+      ".stat-block-title": "Spell"
     },
     "ignore": [
       "ABOUT"
