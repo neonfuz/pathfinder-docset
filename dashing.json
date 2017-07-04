@@ -1,7 +1,7 @@
 {
     "name": "Pathfinder PRD",
     "package": "pathfinder",
-    "index": "gettingStarted.html",
+    "index": "index.html",
     "selectors": {
       "h1": {
         "type": "Race",
