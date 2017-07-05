@@ -3,6 +3,12 @@
 This is the pathfinder Core Rulebook ripped from the pathfinder PRD, converted
 to a Dash (Zeal) Docset.
 
+** Basic usage
+
+Simply add the docset feed below in Dash or Zeal.
+
+ - https://raw.githubusercontent.com/neonfuz/pathfinder-docset/master/pathfinder.xml
+
 ** Building
 
 In order to use this software, you will need to build it. This is a Dashing
