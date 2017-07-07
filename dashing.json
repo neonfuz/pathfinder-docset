@@ -19,7 +19,10 @@
         "type": "Feat",
         "matchpath": "feats.html"
       },
-      ".stat-block-title": "Spell"
+      ".stat-block-title": {
+        "type": "Spell",
+        "matchpath": "spells/.*\\.html"
+      }
     },
     "ignore": [
       "ABOUT"
