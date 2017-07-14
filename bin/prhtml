@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# This is simply a file I use to do batch processing on html.
+
+#sed -i 's:/pathfinderRPG/prd/include/prd-stylesheet.css:css/prd-stylesheet.css:' $1
+#sed -i 's|http://cdn.paizo.com/chrome/style/jquery.dataTables.min.css|css/jquery.dataTables.min.css|' $1
+#sed -i 's|http://cdn.paizo.com/chrome/style/jquery-ui.min.css|css/jquery-ui.min.css|' $1
+
+sed -i 's|"\(css/.*\.css\)|"../\1|g' "$1"
