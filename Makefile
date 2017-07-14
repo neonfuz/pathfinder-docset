@@ -5,8 +5,7 @@ clean:
 	rm pathfinder.tgz
 	rm -r pathfinder.docset
 
-# TODO add better selector for html files, etc
-pathfinder.docset: dashing.json *.html
+pathfinder.docset: dashing.json **/*.html
 	~/.gopath/bin/dashing build
 
 pathfinder.tgz: pathfinder.docset
