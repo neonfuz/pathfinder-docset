@@ -9,7 +9,8 @@ Simply add the docset feed below in Dash or Zeal.
 
  - https://raw.githubusercontent.com/neonfuz/pathfinder-docset/master/pathfinder.xml
 
-** Building
+** Building ()
 
-In order to use this software, you will need to build it. This is a Dashing
-project, so you will need dashing. Simply run `dashing build` to build it.
+In order to modify this docset, you will need to build it. This is a Dashing
+project, so you will need to install dashing. Simply run `dashing build` to
+build it.
